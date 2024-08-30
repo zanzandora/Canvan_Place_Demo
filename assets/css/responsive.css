@@ -1,0 +1,105 @@
+/* 
+    Responsive:
+    dùng em là tốt nhất so với px và rem
+    PC : >=1024PX ( 64em)
+    Tablet: >=740px (46.25em) & < 1024px(64em)
+    Mobile: <740px (46.25em)
+*/
+
+
+/* Mobile */
+@media only screen and (max-width: 46.25em)  {
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    /* NAV */
+    #nav{
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+        width: 100%;
+    }
+    #bav .subnav:hover{
+        display: block;
+    }
+    #nav .subnav{
+        
+        position: initial;
+        background-color: rgb(99, 96, 96);
+    }
+    #nav .subnav a{
+        color: white;
+        padding: 5px 41px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .ti-search{
+        display: none;
+        
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #slider .text-content{
+
+        padding-bottom: 10px;
+    }
+    #slider .text-content .text-header{
+        font-size:30px;
+        margin-bottom: -1px;
+    }
+    #slider .text-content .text-des{
+        font-size: 20px;
+    }
+    
+    /* COnTAINER */
+    #container .content-section{
+        width: 100%;
+    }
+    .content-section .member-item-mobile{
+        width: 100%;
+        margin-top: 35px;
+    }
+    #container .member-img{
+        width: 60%;
+    }
+    /* CONTACT */
+    .contact-form{
+        margin-top: 40px;
+    } 
+    
+}
+
+/* Ipad and Mobile*/
+@media only screen and (max-width: 64em){
+    .place-buy-btn {
+        padding: 11px 23px;
+    }
+    #container .contact-form .form-control{
+        padding: 15px;
+    }
+    #footer .logo-social{
+        font-size: 48px;
+    }
+    #container .contact-infor {
+        line-height: 2;
+    }
+    
+}
+
+/* Ipad */
+@media only screen and (max-width: 64em) and (min-width:46.25em) {
+    
+}
