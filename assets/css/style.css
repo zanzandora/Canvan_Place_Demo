@@ -256,6 +256,9 @@ html{
     color: white;
     font-weight: 300;
     letter-spacing: 2px;
+    /* dành cho safari */
+    appearance: none;
+    -webkit-appearance: none;
 }
 .btn-send:hover{
     background-color: rgb(65, 207, 207);
