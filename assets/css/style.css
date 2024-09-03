@@ -58,7 +58,12 @@ html{
 .col-full{
     width: 100%;
 }
-
+/* dùng để biến tag input về form mà mình đã css */
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 
 /* Main */
 #main {
